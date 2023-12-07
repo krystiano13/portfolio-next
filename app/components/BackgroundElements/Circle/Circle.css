@@ -1,0 +1,31 @@
+.circle {
+    animation: popCircle 600ms;
+}
+
+.circle-anim {
+    animation: upDownCircle 9s infinite linear;
+}
+
+@keyframes upDownCircle {
+    0% {
+        transform: scale(1) translate(35vw, -25vh) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1) translate(35vw, calc(-25vh - 5vh)) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) translate(35vw, -25vh) rotate(0deg);
+    }
+}
+
+@keyframes popCircle {
+    from {
+        transform: scale(0) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) translate(35vw, -25vh) rotate(0deg);
+    }
+}

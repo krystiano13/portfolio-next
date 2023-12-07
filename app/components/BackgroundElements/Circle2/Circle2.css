@@ -1,0 +1,31 @@
+.circle2 {
+    animation: popCircle2 750ms;
+}
+
+.circle-2-anim {
+    animation: upDownCircle2 4s infinite linear;
+}
+
+@keyframes upDownCircle2 {
+    0% {
+        transform: scale(1) translate(-40vw, 40vh) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1) translate(-40vw, calc(40vh - 5vh)) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) translate(-40vw, 40vh) rotate(0deg);
+    }
+}
+
+@keyframes popCircle2 {
+    from {
+        transform: scale(0) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) translate(-40vw, 40vh) rotate(0deg);
+    }
+}
