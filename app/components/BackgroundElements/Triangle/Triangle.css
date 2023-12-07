@@ -1,4 +1,33 @@
 .triangle {
     border-width: 0 3rem 5rem 3rem;
     border-color: transparent transparent #4b85dd transparent;
+    animation: popTriangle 700ms;
+}
+
+.triangle-anim {
+    animation: leftRightTriangle 16s linear infinite;
+}
+
+@keyframes popTriangle {
+    from {
+        transform: scale(0) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) translate(25vw, 25vh) rotate(375deg);
+    }
+}
+
+@keyframes leftRightTriangle {
+    0% {
+        transform: scale(1) translate(25vw, 25vh) rotate(375deg);
+    }
+
+    50% {
+        transform: scale(1) translate(calc(25vw - 4vw), 25vh) rotate(375deg);
+    }
+
+    100% {
+        transform: scale(1) translate(25vw, 25vh) rotate(375deg);
+    }
 }
