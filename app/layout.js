@@ -1,8 +1,8 @@
 import { Inter, Montserrat } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
-const montserrat = Montserrat({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], variable: "--font-other" });
+const montserrat = Montserrat({ subsets: ['latin'], variable: "--font-head" });
 
 //components
 import { Background } from "@/app/components/Background";
@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className}, ${montserrat.className}, box-border overflow-x-hidden`}>
+      <body className={`${inter.className} ${montserrat.className} box-border overflow-x-hidden`}>
       <Background />
       {children}
       </body>
