@@ -1,7 +1,8 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
+import { Inter, Montserrat } from 'next/font/google';
+import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
+const montserrat = Montserrat();
 
 export const metadata = {
   title: 'Krystian Zieja',
@@ -10,12 +11,12 @@ export const metadata = {
     { name: "Krystian Zieja", url: "https://github.com/krystiano13" }
   ],
   keywords: ['Krystian', 'Zieja', 'Frontend', 'Backend', 'Fullstack', 'Web', 'developer']
-}
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className}, ${montserrat.className}`}>{children}</body>
     </html>
   )
-}
+};
