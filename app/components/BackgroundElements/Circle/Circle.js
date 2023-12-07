@@ -10,7 +10,7 @@ export function Circle() {
     useEffect(() => {
         setTimeout(() => {
             setCircleAnim(true);
-        }, 450);
+        }, 600);
     }, []);
 
 

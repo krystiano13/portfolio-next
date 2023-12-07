@@ -1,0 +1,55 @@
+.pattern {
+    animation: popPattern 600ms;
+}
+
+.pattern-anim {
+    animation: rotatorPattern 11s infinite linear;
+}
+
+.custom {
+    animation: popCustom 550ms;
+}
+
+.custom-anim {
+    animation: rotatorCustom 9s infinite linear;
+}
+
+@keyframes popPattern {
+    from {
+        transform: scale(0) rotate(69deg);
+    }
+
+    to {
+        transform: scale(1) translate(10vw, -40vh) rotate(69deg);
+    }
+}
+
+@keyframes rotatorPattern {
+    0% {
+        transform: scale(1) translate(10vw, -40vh) rotate(69deg);
+    }
+
+    100% {
+        transform: scale(1) translate(10vw, -40vh) rotate(calc(69deg + 360deg));
+    }
+}
+
+@keyframes popCustom {
+    from {
+        transform: scale(0) rotate(69deg);
+    }
+
+    to {
+        transform: scale(1) translate(-10vw, 40vh) rotate(69deg);
+    }
+}
+
+@keyframes rotatorCustom {
+    0% {
+        transform: scale(1) translate(-10vw, 40vh) rotate(69deg);
+    }
+
+    100% {
+        transform: scale(1) translate(-10vw, 40vh) rotate(calc(69deg + 360deg));
+    }
+}

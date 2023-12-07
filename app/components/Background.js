@@ -17,8 +17,8 @@ export function Background() {
             <Triangle />
             <Circle />
             <Circle2 />
-            <Pattern img={customSrc} alt="custom" />
-            <Pattern img={patternSrc} alt="pattern" />
+            <Pattern delay={550} img={customSrc} alt="custom" />
+            <Pattern delay={600} img={patternSrc} alt="pattern" />
         </div>
     )
 }

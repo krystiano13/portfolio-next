@@ -23,11 +23,11 @@
 }
 
 .custom {
-  transform: translate(-10vw, 40vh) rotate(0deg);
+  transform: translate(-10vw, 40vh) rotate(69deg);
 }
 
 .pattern {
-  transform: translate(10vw, -40vh) rotate(0deg);
+  transform: translate(10vw, -40vh) rotate(69deg);
 }
 
 .square {
