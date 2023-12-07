@@ -5,7 +5,6 @@
 
 .ball-anim {
     animation-name: upDown;
-    animation-delay: 500ms;
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }

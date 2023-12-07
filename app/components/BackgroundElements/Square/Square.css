@@ -1,0 +1,27 @@
+.square {
+    animation: popSquare 800ms;
+}
+
+.square-anim {
+    animation: rotatorSquare 30s infinite linear;
+}
+
+@keyframes popSquare {
+    from {
+        transform: scale(0) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) translate(-30vw, -25vh) rotate(395deg);
+    }
+}
+
+@keyframes rotatorSquare {
+    0% {
+        transform: scale(1) translate(-30vw, -25vh) rotate(395deg);
+    }
+
+    100% {
+        transform: scale(1) translate(-30vw, -25vh) rotate(calc(395deg + 360deg));
+    }
+}
