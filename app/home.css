@@ -1,0 +1,82 @@
+#homeTitle {
+
+    animation: appear 400ms;
+
+    @media screen and (max-width : 380px) {
+        font-size : 4.5rem;
+    }
+
+    @media screen and (max-width : 300px) {
+        font-size : 3.5rem;
+    }
+}
+
+#homeTitle span {
+    background: -webkit-linear-gradient(45deg, #4782dc, #2769cb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+
+#homeSecondTitle {
+
+    animation: appear2 550ms;
+
+    @media screen and (max-width : 380px) {
+        font-size : 2.5rem;
+    }
+
+    @media screen and (max-width : 300px) {
+        font-size : 2rem;
+    }
+}
+
+.homeButtons {
+    animation: appear3 800ms;
+}
+
+@keyframes appear {
+    from {
+        opacity : 0;
+        transform: translateY(-5vh);
+    }
+
+    to {
+        opacity : 1;
+        transform: translateY(0vh);
+    }
+}
+
+@keyframes appear2 {
+    0% {
+        opacity : 0;
+        transform: translateY(-5vh);
+    }
+
+    30% {
+        opacity : 0;
+        transform: translateY(-5vh);
+    }
+
+    100% {
+        opacity : 1;
+        transform: translateY(0vh);
+    }
+}
+
+@keyframes appear3 {
+    0% {
+        opacity : 0;
+        transform: translateY(-5vh);
+    }
+
+    60% {
+        opacity : 0;
+        transform: translateY(-5vh);
+    }
+
+    100% {
+        opacity : 1;
+        transform: translateY(0vh);
+    }
+}
