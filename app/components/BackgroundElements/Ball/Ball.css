@@ -1,0 +1,35 @@
+.ball {
+    animation-name: pop;
+    animation-duration: 450ms;
+}
+
+.ball-anim {
+    animation-name: upDown;
+    animation-delay: 500ms;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: scale(1) translate(-20vw, 15vh) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1) translate(-20vw, calc(15vh - 5vh)) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) translate(-20vw, 15vh) rotate(0deg);
+    }
+}
+
+@keyframes pop {
+    from {
+        transform: scale(0) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) translate(-20vw, 15vh) rotate(0deg);
+    }
+}

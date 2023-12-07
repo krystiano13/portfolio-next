@@ -11,7 +11,7 @@ import patternSrc from '../assets/pattern.png';
 
 export function Background() {
     return (
-        <div className="fixed w-[100vw] h-[100vh] flex justify-center items-center z-[-3] pointer-events-none translate-y-[-5vh] bg-background">
+        <div className="fixed w-[100vw] h-[100vh] flex justify-center items-center z-[-3] pointer-events-none bg-background">
             <Ball />
             <Square />
             <Triangle />
