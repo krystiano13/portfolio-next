@@ -2,6 +2,11 @@ import {Ball} from "@/app/components/BackgroundElements/Ball/Ball";
 import {Square} from "@/app/components/BackgroundElements/Square/Square";
 import {Triangle} from "@/app/components/BackgroundElements/Triangle/Triangle";
 import {Circle} from "@/app/components/BackgroundElements/Circle/Circle";
+import {Pattern} from "@/app/components/BackgroundElements/Pattern/Pattern";
+
+//Images
+import customSrc from '../assets/custom.png';
+import patternSrc from '../assets/pattern.png';
 
 export function Background() {
     return (
@@ -10,6 +15,8 @@ export function Background() {
             <Square />
             <Triangle />
             <Circle />
+            <Pattern img={customSrc} alt="custom icon" />
+            <Pattern img={patternSrc} alt="pattern icon" />
         </div>
     )
 }
