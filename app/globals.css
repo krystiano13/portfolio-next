@@ -10,6 +10,34 @@
   font-family: 'Inter', sans-serif;
 }
 
+.ball {
+  transform: translate(-20vw, 15vh) rotate(0deg);
+}
+
+.circle {
+  transform: translate(35vw, -25vh) rotate(0deg);
+}
+
+.circle2 {
+  transform: translate(-40vw, 40vh) rotate(0deg);
+}
+
+.custom {
+  transform: translate(-10vw, 40vh) rotate(0deg);
+}
+
+.pattern {
+  transform: translate(10vw, -40vh) rotate(0deg);
+}
+
+.square {
+  transform: translate(-30vw, -25vh) rotate(395deg);
+}
+
+.triangle {
+  transform: translate(25vw, 25vh) rotate(375deg);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
