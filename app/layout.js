@@ -4,6 +4,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 const montserrat = Montserrat({ subsets: ['latin'] });
 
+//components
+import { Background } from "@/app/components/Background";
+
 export const metadata = {
   title: 'Krystian Zieja',
   description: 'Krystian Zieja - web developer portfolio website',
@@ -16,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className}, ${montserrat.className}, box-border overflow-x-hidden`}>{children}</body>
+      <body className={`${inter.className}, ${montserrat.className}, box-border overflow-x-hidden`}>
+      <Background />
+      {children}
+      </body>
     </html>
   )
 };
