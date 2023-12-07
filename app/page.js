@@ -1,4 +1,5 @@
 import {FancyButton} from "@/app/components/FancyButton";
+import {Underline} from "@/app/components/Home/Underline";
 import './home.css';
 export default function Home() {
     return (
@@ -11,7 +12,7 @@ export default function Home() {
             </h1>
             <h2 id="homeSecondTitle" className="text-text text-other text-center text-[3rem] font-medium ">
                 Web Developer
-                <label id="underline">_</label>
+                <Underline />
             </h2>
             <div className="homeButtons flex gap-[2rem] mb-[15vh] md:mb-0">
                 <a className="decoration-0" href="/projects">
