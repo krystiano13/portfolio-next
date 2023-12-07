@@ -2,7 +2,7 @@ import {FancyButton} from "@/app/components/FancyButton";
 import './home.css';
 export default function Home() {
     return (
-        <main className="overflow-hidden ">
+        <main className=" overflow-hidden w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-[3rem]">
             <h1 id="homeTitle" className="text-text text-head text-center font-semibold text-[5rem] ">
                 {"Hi, I'm "}
                 <span>
@@ -13,7 +13,7 @@ export default function Home() {
                 Web Developer
                 <label id="underline">_</label>
             </h2>
-            <div className="homeButtons flex gap-[2rem] sm:mb-[15vh]">
+            <div className="homeButtons flex gap-[2rem] mb-[15vh] md:mb-0">
                 <a className="decoration-0" href="/projects">
                     <FancyButton>My Projects</FancyButton>
                 </a>
