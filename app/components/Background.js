@@ -1,6 +1,7 @@
 import {Ball} from "@/app/components/BackgroundElements/Ball/Ball";
 import {Square} from "@/app/components/BackgroundElements/Square/Square";
 import {Triangle} from "@/app/components/BackgroundElements/Triangle/Triangle";
+import {Circle} from "@/app/components/BackgroundElements/Circle/Circle";
 
 export function Background() {
     return (
@@ -8,6 +9,7 @@ export function Background() {
             <Ball />
             <Square />
             <Triangle />
+            <Circle />
         </div>
     )
 }
