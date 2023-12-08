@@ -3,7 +3,7 @@ import {Underline} from "@/app/components/Home/Underline";
 import './home.css';
 export default function Home() {
     return (
-        <main className=" overflow-hidden w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-[3rem]">
+        <main className="overflow-hidden w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-[3rem] z-[1]">
             <h1 id="homeTitle" className="text-text text-head text-center font-semibold text-[5rem] ">
                 {"Hi, I'm "}
                 <span>
