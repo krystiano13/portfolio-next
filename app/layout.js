@@ -6,6 +6,7 @@ const montserrat = Montserrat({ subsets: ['latin'], variable: "--font-head" });
 
 //components
 import { Background } from "@/app/components/Background";
+import { Navbar } from "@/app/components/Navbar/Navbar";
 
 export const metadata = {
   title: 'Krystian Zieja',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} ${montserrat.className} box-border overflow-x-hidden`}>
+      <Navbar />
       <Background />
       {children}
       </body>

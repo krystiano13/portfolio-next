@@ -1,0 +1,32 @@
+.NavWrap .HamburgerButton .stripe {
+    width : 90%;
+    height : 0.4rem;
+    margin-top : 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: #f2f6fd;
+    transition: 250ms;
+    transform-origin: center center;
+    z-index: 3;
+}
+
+.hidden {
+    opacity : 0;
+}
+
+.upStripe {
+    margin: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+
+.downStripe {
+    margin: 0;
+    position: absolute;
+    transform: rotate(-45deg);
+    z-index: 3;
+}
+
+.opened {
+    position: relative;
+}
