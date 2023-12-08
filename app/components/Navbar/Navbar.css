@@ -30,3 +30,70 @@
 .opened {
     position: relative;
 }
+
+.NavWrap .HamburgerButton {
+    width : 3rem;
+    height: 3rem;
+    z-index: 25;
+    position: fixed;
+
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    animation: intro 1s;
+}
+
+.NavWrap {
+    @media screen and (max-width : 800px) {
+        padding : 0.85rem;
+    }
+}
+
+nav {
+    transition: transform 250ms;
+    will-change: transform;
+
+    @media screen and (max-width : 800px) {
+        padding-left: 1rem;
+    }
+}
+
+.navHidden {
+    transform: translateX(130vw);
+}
+
+@keyframes intro {
+    from {
+        opacity : 0;
+        transform: translateY(-20rem);
+    }
+
+    to {
+        opacity : 1;
+        transform: translateY(0rem);
+    }
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg,#f2f6fd, transparent) ;
+    width : 100%;
+    height : 0.25rem;
+    left : 0;
+    bottom : 0;
+    transition: transform 250ms;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+}
+
+nav a:hover::before {
+    transform: scaleX(1);
+}
+
+nav a:hover {
+    transform: translateX(10px);
+}
