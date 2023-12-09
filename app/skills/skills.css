@@ -1,0 +1,57 @@
+#skillsWrapper h1 {
+
+    animation: app 500ms;
+
+    @media screen and (max-width: 700px) {
+        font-size: 2.5rem;
+        padding-left : 2rem;
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 1025px) {
+        width: 60%;
+    }
+}
+
+#skills {
+    animation: app2 500ms;
+
+    @media screen and (max-width: 800px) {
+        margin-bottom: 15vh;
+        min-width: 22rem;
+        min-height: 25rem;
+    }
+
+    @media screen and (min-width: 820px) and (max-width: 1025px) {
+        height: 70%;
+        width: 60%;
+    }
+}
+
+@keyframes app {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes app2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
