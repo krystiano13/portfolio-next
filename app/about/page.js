@@ -18,7 +18,7 @@ export default function About() {
                    by starting a career as a programmer.
                </p>
                <Link href="https://portfolio-new-three-theta.vercel.app/CV.pdf">
-                   <FancyButton fontSize="1.6rem">My Resume</FancyButton>
+                   <FancyButton>My Resume</FancyButton>
                </Link>
            </section>
         </main>

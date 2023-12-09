@@ -4,16 +4,10 @@ import Link from "next/link";
 import { useState } from 'react';
 import './Navbar.css';
 
+import {routes} from "@/app/components/Navbar/routes";
+
 export function Navbar() {
     const [open, setOpen] = useState(false);
-
-    const routes = [
-        { href: '', name: 'Home Page' },
-        { href: 'about', name: 'About' },
-        { href: 'skills', name: 'Skills' },
-        { href: 'projects', name: 'My Projects' },
-        { href: 'contact', name: 'Contact' },
-    ];
 
     const openMenu = () => {
         setOpen(prevState => {
@@ -36,6 +30,7 @@ export function Navbar() {
                 {
                     routes.map(item => (
                         <Link
+                            onClick={() => openMenu(false)}
                             key={item.name}
                             className="text-head text-text cursor-pointer font-semibold
                             text-[3.25rem] m-[1rem] z-[1000] relative transition list-none"
