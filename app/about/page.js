@@ -17,7 +17,7 @@ export default function About() {
                    I would like to significantly develop my skills in this field
                    by starting a career as a programmer.
                </p>
-               <Link href="/">
+               <Link href="https://portfolio-new-three-theta.vercel.app/CV.pdf">
                    <FancyButton fontSize="1.6rem">My Resume</FancyButton>
                </Link>
            </section>

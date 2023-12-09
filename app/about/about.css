@@ -1,12 +1,6 @@
 #about {
-    @media screen and (max-width : 800px) {
-        transform: translateY(-10vh);
-    }
-
     @media screen and (max-width: 992px) {
         width: 100vw;
-        height: 50vh;
-        min-height: 25rem;
     }
 
     animation: slideIn 350ms;
