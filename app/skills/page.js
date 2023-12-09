@@ -19,6 +19,7 @@ export default function Skills() {
                     <div
                         className="skill border-2 border-solid border-text m-[0.6rem]
                         cursor-pointer transition flex flex-col justify-center items-center rounded-2xl"
+                        key={item.name}
                     >
                         <Image quality={100} className="w-[60%] h-[70%] object-contain" src={item.logo} alt={item.name}/>
                         <label className="font-medium w-full h-[20%] text-center text-head text-text mt-[0.25rem] text-[0.9rem] pointer-events-none">
