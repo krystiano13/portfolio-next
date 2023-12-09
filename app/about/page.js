@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import {FancyButton} from "@/app/components/FancyButton";
+import './about.css';
 
 export default function About() {
     return (
@@ -7,7 +8,7 @@ export default function About() {
             className="overflow-hidden w-[100vw] h-[100vh]
             flex flex-col items-center justify-center gap-[0rem] z-[1]"
         >
-           <section>
+           <section id="about" className="text-text w-[50vw] min-w-[25rem] h-[50vh] min-h-[15rem] p-[2rem]">
                <h1>About Me</h1>
                <p>
                    I am a graduate of a technical high school specializing in computer science.
