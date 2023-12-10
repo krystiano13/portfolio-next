@@ -6,6 +6,9 @@ export default function Projects() {
             <h1 className="text-head text-text text-[3rem] w-[60%] min-w-[25rem] relative mt-[3rem]">
                 My Projects
             </h1>
+            <div className="ProjectsWrapper w-[60%] h-auto min-h-[20rem] flex justify-between">
+
+            </div>
         </main>
     )
 }

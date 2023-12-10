@@ -14,3 +14,10 @@
     bottom: 0;
     left: 0;
 }
+
+.ProjectsWrapper {
+    @media screen and (max-width: 800px) {
+        width: 90%;
+        margin-bottom: 15vh;
+    }
+}
