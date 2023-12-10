@@ -1,0 +1,14 @@
+#tags {
+    @media screen and (max-width: 992px) {
+        width : 90%;
+    }
+}
+
+#proj h1 {
+    @media screen and (max-width : 992px) {
+        width : 90%;
+        min-width : 15rem;
+    }
+
+    animation: appear1 400ms;
+}
