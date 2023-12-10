@@ -17,9 +17,9 @@ export const ProjectsData = [
         id: 0,
         name: "GiardDesign",
         images: [p1.src, p2.src],
-        description: "This is a landing page that was created for the purposes of recruitment for the company AdRespect. The project includes a fully functional slider, a photo gallery, and smooth animations of" +
-            "its elements during scrolling. To maximize the project's performance, I rewrote it later using the" +
-            "Astro framework. In addition to the mentioned technology, I also used Bootstrap, SCSS, AOS.js, and" +
+        description: "This is a landing page that was created for the purposes of recruitment for the company AdRespect. The project includes a fully functional slider, a photo gallery, and smooth animations of " +
+            "its elements during scrolling. To maximize the project's performance, I rewrote it later using the " +
+            "Astro framework. In addition to the mentioned technology, I also used Bootstrap, SCSS, AOS.js, and " +
             "Macy.js. \n",
         codeLink: "https://github.com/krystiano13/astro_rtask",
         liveLink: "https://krystiano13.github.io/astro_rtask/",
@@ -30,9 +30,9 @@ export const ProjectsData = [
         id: 1,
         name: "Training Tracker",
         images: [t1.src, t2.src],
-        description: "This is a fullstack application project that I use for outlining exercises in my training plan. It" +
-            "calculates the training volume for a given exercise and, in the case of editing, calculates progress" +
-            "in that exercise as a percentage. The application features a fully functional login and registration" +
+        description: "This is a fullstack application project that I use for outlining exercises in my training plan. It " +
+            "calculates the training volume for a given exercise and, in the case of editing, calculates progress " +
+            "in that exercise as a percentage. The application features a fully functional login and registration " +
             "system, as well as a connection to a database. The technologies I used on the frontend include " +
             "Astro, Bootstrap, and Preact, while on the backend, I used PHP and MySQL.",
         codeLink: "https://github.com/krystiano13/trainingTracker",
@@ -44,9 +44,9 @@ export const ProjectsData = [
         id: 2,
         name: "Old 3D Portfolio",
         images: [p3.src, p4.src],
-        description: "This is a website project that was intended to present the key information about me using" +
-            "animated cards and a 3D solar system. To create it, I used various frontend and 3D technologies" +
-            "including React, SASS, THREE.js and React-Three-Fiber",
+        description: "This is a website project that was intended to present the key information about me using " +
+            "animated cards and a 3D solar system. To create it, I used various frontend and 3D technologies " +
+            "including React, SASS, THREE.js and React-Three-Fiber ",
         codeLink: "https://github.com/krystiano13/portfolio3d",
         liveLink: "https://krystiano13.github.io/portfolioLiveTest/",
         techStack: ['React', 'THREE.js', 'SCSS', 'GSAP']
@@ -56,8 +56,8 @@ export const ProjectsData = [
         id: 3,
         name: "Pomodoro Timer",
         images: [p11.src, p13.src],
-        description: "Simple pomodoro timer with settings section to modify timer to your needs."
-            + "Project was created using React, Typescript and SCSS.",
+        description: "Simple pomodoro timer with settings section to modify timer to your needs. "
+            + "Project was created using React, Typescript and SCSS. ",
         codeLink: "https://github.com/krystiano13/pomodoro_src",
         liveLink: "https://krystiano13.github.io/pomodoro/",
         techStack: ['React', 'TS', 'SCSS']
@@ -67,9 +67,9 @@ export const ProjectsData = [
         id: 4,
         name: "Simple Forum",
         images: [f1.src, f2.src],
-        description: "As the name suggest, it’s simple internet forum. It was made using frontend and backend" +
+        description: "As the name suggest, it’s simple internet forum. It was made using frontend and backend " +
             "technologies. For frontend : QWIK framework and for backend: Laravel. Project contains working" +
-            "registration and login system, ability to add, edit, delete and comment threads. It also has simple" +
+            "registration and login system, ability to add, edit, delete and comment threads. It also has simple " +
             "admin panel for uploading news.",
         codeLink: "https://github.com/krystiano13/simple-forum",
         liveLink: "https://github.com/krystiano13/simple-forum",

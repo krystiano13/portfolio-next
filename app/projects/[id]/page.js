@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {FancyButton} from "@/app/components/FancyButton";
 import {ProjectsData} from "@/app/projects/projectsData";
 import './project.css';
@@ -24,20 +25,21 @@ export default function Project({params}) {
                     ))
                 }
             </div>
-            <section className="text">
-                <h2>About Project:</h2>
-                <p id="projectDesc">{ProjectsData[params.id].description}</p>
+            <section className="text w-[60%] h-[50%] min-h-[30rem] bg-accent mt-[2rem] text-text text-head rounded-[2rem] ">
+                <h2 className="m-[1rem] text-[2rem] h-[10%]">About Project:</h2>
+                <p className="m-[1rem] max-w-[85%] h-[65%] text-[1.3rem]" id="projectDesc">{ProjectsData[params.id].description}</p>
                 <div className="links">
-                    <a id="code">
+                    <Link href={ProjectsData[params.id].codeLink} id="code">
                         <FancyButton>Code</FancyButton>
-                    </a>
-                    <a id="live">
+                    </Link>
+                    <Link href={ProjectsData[params.id].liveLink} id="live">
                         <FancyButton>Live</FancyButton>
-                    </a>
+                    </Link>
                 </div>
             </section>
-            <section className="image">
+            <section className="w-[60%] image h-[50%] mt-[2rem] min-h-[35rem] bg-transparent">
                 <Image
+                    className="w-full h-full object-cover"
                     src={ProjectsData[params.id].images[0]}
                     alt="screenshot"
                     width={1920}
@@ -45,8 +47,9 @@ export default function Project({params}) {
                     id="img1"
                 />
             </section>
-            <section className="image">
+            <section className="image w-[60%] mt-[2rem] h-[50%] min-h-[35rem] bg-transparent">
                 <Image
+                    className="w-full h-full object-cover"
                     src={ProjectsData[params.id].images[1]}
                     alt="screenshot"
                     width={1920}
