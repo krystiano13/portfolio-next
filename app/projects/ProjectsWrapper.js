@@ -3,9 +3,11 @@
 import {ProjectsData} from "@/app/projects/projectsData";
 import { useState } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation'
 
 export function ProjectsWrapper() {
     const [show, setShow] = useState(-1);
+    const router = useRouter();
 
     return (
         <>
@@ -14,6 +16,7 @@ export function ProjectsWrapper() {
                     ProjectsData.map(item => (
                         <li
                             key={item.id}
+                            onClick={() => router.push(`/projects/${item.id}`)}
                             onMouseEnter={() => setShow(item.id)}
                             onMouseLeave={() => setShow(-1)}
                             className="listItem text-text text-head list-none text-[2rem] mt-[2rem]

@@ -4,13 +4,15 @@
     }
 }
 
+#proj {
+    animation: appear1 400ms;
+}
+
 #proj h1 {
     @media screen and (max-width : 992px) {
         width : 90%;
         min-width : 15rem;
     }
-
-    animation: appear1 400ms;
 }
 
 #proj h1::before {
@@ -76,5 +78,17 @@
         width : 85%;
         max-width: 85%;
         text-align: left;
+    }
+}
+
+@keyframes appear1 {
+    from {
+        transform: translateX(-100px);
+        opacity : 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity : 1;
     }
 }
