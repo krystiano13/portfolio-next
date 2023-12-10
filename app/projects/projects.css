@@ -21,3 +21,34 @@
         margin-bottom: 15vh;
     }
 }
+
+.ProjectsWrapper ul {
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+
+    @media screen and (orientation: portrait) {
+        width: 100%;
+    }
+}
+
+.ProjectsWrapper ul li {
+    @media screen and (max-width : 800px) {
+        font-size : 1.6rem;
+        margin-top : 1.5rem;
+    }
+}
+
+.ProjectShowcase {
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+
+    @media screen and (orientation: portrait) {
+        display: none;
+    }
+}
+
+.imageHide {
+    opacity : 0;
+}
