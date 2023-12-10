@@ -61,7 +61,7 @@ export default function Project({params}) {
                         />
                     </section>
                 </> : <div className="w-[100vw] h-[100vh] flex justify-center items-center">
-                    <p className="text-text text-[1.1rem] text-head">This page doesn't exist</p>
+                    <p className="text-text text-[1.1rem] text-head">This page does not exist</p>
                 </div>
             }
         </main>
