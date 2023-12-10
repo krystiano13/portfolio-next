@@ -22,6 +22,7 @@ export default function Project({params}) {
                         {
                             ProjectsData[params.id].techStack.map(item => (
                                 <div
+                                    key={item}
                                     className="text-text text-head m-[1rem] ml-[0rem] p-[0.5rem] bg-accent rounded-[1rem]"
                                 >{item}</div>
                             ))
