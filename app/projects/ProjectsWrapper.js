@@ -13,6 +13,7 @@ export function ProjectsWrapper() {
                 {
                     ProjectsData.map(item => (
                         <li
+                            key={item.id}
                             onMouseEnter={() => setShow(item.id)}
                             onMouseLeave={() => setShow(-1)}
                             className="listItem text-text text-head list-none text-[2rem] mt-[2rem]
@@ -26,6 +27,7 @@ export function ProjectsWrapper() {
                 {
                     ProjectsData.map(item => (
                         <Image
+                            key={item.id}
                             className={`${show === item.id ? "" : "imageHide"} mt-[2rem] block absolute w-full h-full object-contain transition-opacity`}
                             id={`image${item.id}`}
                             src={item.images[0]}
