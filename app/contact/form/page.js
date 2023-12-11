@@ -1,4 +1,5 @@
 import {Form} from './form';
+import '../contact.css';
 
 export default function ContactForm() {
     return (
