@@ -18,7 +18,8 @@ export default function Skills() {
                 {skillsData.map(item =>
                     <div
                         className="skill border-2 border-solid border-text m-[0.6rem]
-                        cursor-pointer transition flex flex-col justify-center items-center rounded-2xl"
+                        cursor-pointer transition flex flex-col justify-center items-center rounded-2xl
+                        bg-primary bg-opacity-10"
                         key={item.name}
                     >
                         <Image quality={100} className="w-[60%] h-[70%] object-contain" src={item.logo} alt={item.name}/>

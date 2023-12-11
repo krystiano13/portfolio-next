@@ -13,6 +13,7 @@ import reactLogo from "../assets/logos/react.png";
 import reduxLogo from "../assets/logos/redux.svg";
 import sassLogo from "../assets/logos/sass.png";
 import tsLogo from "../assets/logos/typescript.png";
+import nextLogo from '../assets/logos/next-js.svg';
 
 export const skillsData= [
     {
@@ -75,4 +76,8 @@ export const skillsData= [
         name: 'Typescript',
         logo: tsLogo
     },
+    {
+        name: "NEXT.js",
+        logo: nextLogo
+    }
 ];
