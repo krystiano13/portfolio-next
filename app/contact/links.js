@@ -5,7 +5,7 @@ import mail from '../assets/contactIcons/gmail.png';
 export const links = [
     {
         id : 0,
-        href: "mailto:crystianotv@gmail.com",
+        href: "/contact/form",
         src : mail,
         alt : "mail",
         name: "Mail",
