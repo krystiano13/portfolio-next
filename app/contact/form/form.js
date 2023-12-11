@@ -1,5 +1,7 @@
 'use client'
 
+import './form.css';
+
 export function Form() {
     return (
         <form className="flex flex-col w-[80%] md:w-[50%] h-auto mt-[2rem]">
