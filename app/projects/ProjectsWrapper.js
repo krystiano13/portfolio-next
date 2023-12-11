@@ -11,7 +11,7 @@ export function ProjectsWrapper() {
 
     return (
         <>
-            <ul className="ProjectList w-[50%]">
+            <ul id="list" className="ProjectList w-[50%]">
                 {
                     ProjectsData.map(item => (
                         <li
