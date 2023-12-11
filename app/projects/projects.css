@@ -74,5 +74,6 @@
 #list {
     @media screen and (orientation: portrait) {
         display: block;
+        width : 100%;
     }
 }
