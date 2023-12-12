@@ -6,6 +6,10 @@ form {
     background-color: #276ace;
 }
 
+.info {
+    animation: appear2 600ms;
+}
+
 @keyframes appear2 {
     0% {
         opacity: 0;
