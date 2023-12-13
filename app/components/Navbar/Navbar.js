@@ -33,7 +33,7 @@ export function Navbar() {
                             onClick={() => openMenu(false)}
                             key={item.name}
                             className="text-head text-text cursor-pointer font-semibold
-                            text-[3.25rem] m-[1rem] z-[1000] relative transition list-none"
+                            md:text-[3.25rem] text-[2.5rem] md:m-[1rem] m-[0.5rem] z-[1000] relative transition list-none"
                             href={`/${item.href}`}
                         >
                             { item.name }
