@@ -1,7 +1,5 @@
 import c1 from '../assets/screenshots/c1.png';
 import c2 from '../assets/screenshots/c2.png';
-import f1 from '../assets/screenshots/f1.png';
-import f2 from '../assets/screenshots/f2.png';
 import p1 from '../assets/screenshots/p1.png';
 import p2 from '../assets/screenshots/p2.png';
 import p3 from '../assets/screenshots/p3.png';
@@ -10,6 +8,8 @@ import t1 from '../assets/screenshots/t1.png';
 import t2 from '../assets/screenshots/t2.png';
 import p11 from '../assets/screenshots/1p1.png';
 import p13 from '../assets/screenshots/1p3.png';
+import screen1 from '../assets/screenshots/screen1.png';
+import screen2 from '../assets/screenshots/screen2.png';
 
 
 export const ProjectsData = [
@@ -65,15 +65,14 @@ export const ProjectsData = [
 
     {
         id: 4,
-        name: "Simple Forum",
-        images: [f1.src, f2.src],
-        description: "As the name suggest, it’s simple internet forum. It was made using frontend and backend " +
-            "technologies. For frontend : QWIK framework and for backend: Laravel. Project contains working" +
-            "registration and login system, ability to add, edit, delete and comment threads. It also has simple " +
-            "admin panel for uploading news.",
-        codeLink: "https://github.com/krystiano13/simple-forum",
-        liveLink: "https://github.com/krystiano13/simple-forum",
-        techStack: ['QWIK', 'TS', 'PHP', 'MySQL', 'Laravel']
+        name: "Post App",
+        images: [screen1.src, screen2.src],
+        description: "Simple CRUD aplication inspired by Reddit. It was made using frontend and backend " +
+            "technologies. For frontend : Next.js framework and for backend: Laravel. Project contains working" +
+            "registration and login system, ability to add, edit, delete and comment posts.",
+        codeLink: "https://github.com/krystiano13/post-app",
+        liveLink: "https://github.com/krystiano13/post-app",
+        techStack: ['Next.js', 'JS', 'PHP', 'MySQL', 'Laravel']
     },
 
     {
