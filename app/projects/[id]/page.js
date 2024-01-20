@@ -12,7 +12,7 @@ export default function Project({params}) {
             className="w-[100vw] min-h-[30rem] h-[100vh] flex flex-col items-center justify-start"
         >
             {
-                params.id < 5 ? <>
+                params.id <= 5 ? <>
                     <h1
                         className="text-head text-[3rem] text-text font-semibold w-[60%] min-w-[25rem] relative mt-[5rem]"
                         id="ProjectTitle">

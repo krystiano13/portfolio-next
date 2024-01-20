@@ -79,7 +79,8 @@ export const ProjectsData = [
         id: 5,
         name: "Quizz App",
         images: [c1.src, c2.src],
-        description: "Fullstack application that allows to create, solve and rate quizzes.",
+        description: "Fullstack application that allows to create, solve and rate quizzes. " +
+            "Features: User Authentication via Bearer Token, Saving user's stats, Rating other users quizzes, Quizz editor",
         codeLink: "https://github.com/krystiano13/quizz-app",
         liveLink: "https://github.com/krystiano13/quizz-app",
         techStack: ['React', 'TS', 'Laravel', 'MySQL', 'PHP', 'JS', 'TailwindCSS', 'Shadcn/ui']
