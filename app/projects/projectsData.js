@@ -77,12 +77,11 @@ export const ProjectsData = [
 
     {
         id: 5,
-        name: "Code IDE",
+        name: "Quizz App",
         images: [c1.src, c2.src],
-        description: "Project is simple code editor inspired by Codepen. To create it, I used various " +
-            "technologies like React, Redux or CodeMirror",
-        codeLink: "https://github.com/krystiano13/code-ide",
-        liveLink: "https://krystiano13.github.io/code-ide-live/",
-        techStack: ['React', 'Redux', 'CodeMirror']
+        description: "Fullstack application that allows to create, solve and rate quizzes.",
+        codeLink: "https://github.com/krystiano13/quizz-app",
+        liveLink: "https://github.com/krystiano13/quizz-app",
+        techStack: ['React', 'TS', 'Laravel', 'MySQL', 'PHP', 'JS', 'TailwindCSS', 'Shadcn/ui']
     },
 ];
