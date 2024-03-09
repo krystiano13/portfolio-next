@@ -6,8 +6,8 @@ import p3 from '../assets/screenshots/p3.png';
 import p4 from '../assets/screenshots/p4.png';
 import t1 from '../assets/screenshots/t1.png';
 import t2 from '../assets/screenshots/t2.png';
-import p11 from '../assets/screenshots/1p1.png';
-import p13 from '../assets/screenshots/1p3.png';
+import sb1 from '../assets/screenshots/sb1.png';
+import sb2 from '../assets/screenshots/sb2.png';
 import screen1 from '../assets/screenshots/screen1.png';
 import screen2 from '../assets/screenshots/screen2.png';
 
@@ -54,13 +54,12 @@ export const ProjectsData = [
 
     {
         id: 3,
-        name: "Pomodoro Timer",
-        images: [p11.src, p13.src],
-        description: "Simple pomodoro timer with settings section to modify timer to your needs. "
-            + "Project was created using React, Typescript and SCSS. ",
-        codeLink: "https://github.com/krystiano13/pomodoro_src",
-        liveLink: "https://krystiano13.github.io/pomodoro/",
-        techStack: ['React', 'TS', 'SCSS']
+        name: "Blog",
+        images: [sb1.src, sb2.src],
+        description: "Simple blog project where you can create account, read and comment posts. It also contains the admin dashboard for managing content.",
+        codeLink: "https://github.com/krystiano13/symfony-blog",
+        liveLink: "https://github.com/krystiano13/symfony-blog",
+        techStack: ['Symfony', 'PHP', 'MySQL', 'JS', 'TailwindCSS', 'Webpack']
     },
 
     {

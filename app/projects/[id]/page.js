@@ -42,7 +42,7 @@ export default function Project({params}) {
                     </section>
                     <section className="w-[60%] image h-[50%] mt-[2rem] min-h-[35rem] bg-transparent">
                         <Image
-                            className="w-full h-full object-cover"
+                            className="w-full object-contain"
                             src={ProjectsData[params.id].images[0]}
                             alt="screenshot"
                             width={1920}
@@ -50,9 +50,9 @@ export default function Project({params}) {
                             id="img1"
                         />
                     </section>
-                    <section className="image w-[60%] mt-[2rem] h-[50%] min-h-[35rem] bg-transparent">
+                    <section className="image w-[60%] mt-[8rem] h-[50%] min-h-[35rem] bg-transparent">
                         <Image
-                            className="w-full h-full object-cover"
+                            className="w-full object-contain"
                             src={ProjectsData[params.id].images[1]}
                             alt="screenshot"
                             width={1920}
