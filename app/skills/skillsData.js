@@ -7,13 +7,12 @@ import jsLogo from "../assets/logos/js.png";
 import laravelLogo from "../assets/logos/laravel.png";
 import phpLogo from "../assets/logos/php.png";
 import preactLogo from "../assets/logos/preact.png";
-import pythonLogo from "../assets/logos/Python.svg";
-import qwikLogo from "../assets/logos/qwik.svg";
 import reactLogo from "../assets/logos/react.png";
 import reduxLogo from "../assets/logos/redux.svg";
 import sassLogo from "../assets/logos/sass.png";
 import tsLogo from "../assets/logos/typescript.png";
 import nextLogo from '../assets/logos/next-js.svg';
+import symfonyLogo from '../assets/logos/symfony.png';
 
 export const skillsData= [
     {
@@ -53,12 +52,8 @@ export const skillsData= [
         logo: preactLogo
     },
     {
-        name: 'Python',
-        logo: pythonLogo
-    },
-    {
-        name: 'QWIK',
-        logo: qwikLogo
+        name: 'Symfony',
+        logo: symfonyLogo
     },
     {
         name: 'React',
