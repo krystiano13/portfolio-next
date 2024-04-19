@@ -12,7 +12,8 @@ import reduxLogo from "../assets/logos/redux.svg";
 import sassLogo from "../assets/logos/sass.png";
 import tsLogo from "../assets/logos/typescript.png";
 import nextLogo from '../assets/logos/next-js.svg';
-import symfonyLogo from '../assets/logos/symfony.png';
+import rubyLogo from '../assets/logos/ruby.png';
+import railsLogo from '../assets/logos/rails.png';
 
 export const skillsData= [
     {
@@ -52,8 +53,12 @@ export const skillsData= [
         logo: preactLogo
     },
     {
-        name: 'Symfony',
-        logo: symfonyLogo
+        name: 'Ruby',
+        logo: rubyLogo
+    },
+    {
+        name: 'Ruby on Rails',
+        logo: railsLogo
     },
     {
         name: 'React',
