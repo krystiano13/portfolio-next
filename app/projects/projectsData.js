@@ -4,8 +4,8 @@ import p1 from '../assets/screenshots/p1.png';
 import p2 from '../assets/screenshots/p2.png';
 import p3 from '../assets/screenshots/p3.png';
 import p4 from '../assets/screenshots/p4.png';
-import t1 from '../assets/screenshots/t1.png';
-import t2 from '../assets/screenshots/t2.png';
+import us1 from '../assets/screenshots/us1.png';
+import us2 from '../assets/screenshots/us2.png';
 import sb1 from '../assets/screenshots/sb1.png';
 import sb2 from '../assets/screenshots/sb2.png';
 import screen1 from '../assets/screenshots/screen1.png';
@@ -28,16 +28,12 @@ export const ProjectsData = [
 
     {
         id: 1,
-        name: "Training Tracker",
-        images: [t1.src, t2.src],
-        description: "This is a fullstack application project that I use for outlining exercises in my training plan. It " +
-            "calculates the training volume for a given exercise and, in the case of editing, calculates progress " +
-            "in that exercise as a percentage. The application features a fully functional login and registration " +
-            "system, as well as a connection to a database. The technologies I used on the frontend include " +
-            "Astro, Bootstrap, and Preact, while on the backend, I used PHP and MySQL.",
-        codeLink: "https://github.com/krystiano13/trainingTracker",
-        liveLink: "https://github.com/krystiano13/trainingTracker",
-        techStack: ['Astro', 'Preact', 'TS', 'PHP', 'MySQL', 'Bootstrap']
+        name: "URL Shortener",
+        images: [us1.src, us2.src],
+        description: "This is a fullstack application project that I've made using Ruby on Rails framework. Project contains authentication system with password resetting, URL shortening and visits counter. All data is being saved using SQL database",
+        codeLink: "https://github.com/krystiano13/short_url",
+        liveLink: "https://github.com/krystiano13/short_url",
+        techStack: ['Ruby', 'Ruby On Rails', 'TailwindCSS' ,'CSS', 'HTML', 'JS']
     },
 
     {
